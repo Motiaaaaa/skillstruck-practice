@@ -13,11 +13,15 @@
 # 		biggest = num
 
 # print(biggest)
+
+
+
+#Challenge2
 my_list = [int(n) for n in input().split()]
 
 current = my_list[0]
 
 for num in my_list:
 	if num > current:
-		print(my_list)
-	current = 
+		print(num)
+	current = num
