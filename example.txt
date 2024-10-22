@@ -1,0 +1,22 @@
+# file = open("example.txt","r")
+# print(file.read(10))
+# print(file.readline())
+# print(file.readline())
+# file.close()
+
+
+
+##Read a specific number of characters
+# number = int(input("How many characters do you want the code to read?"))
+# file = open("example.txt","r")
+# print(file.read(number))
+
+
+
+
+##How many words
+example = open("exaple.txt","r")
+data = file.read()
+words = data.split()
+print(len(words))
+file.close()
