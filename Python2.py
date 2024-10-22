@@ -58,9 +58,28 @@
 
 
 ##Factorials 
-number = int(input("What number do you want to know?"))
+# number = int(input("What number do you want to know?"))
 
-mult_total = 1
-sum_total = 0
+# mult_total = 1
+# sum_total = 0
 
-for x in range(1, number+1):
+# for x in range(1, number+1):
+
+
+
+
+#Guess the Word
+words = ["Adventure", "Chocolate", "Happiness", "Journey", "Reflection", "Galaxy", "Sunshine","Discovery","Euphoria","Friendship","Harmony"]
+
+number = int(input("Input number between 0-10: "))
+word = words[number].lower()
+
+word_list = list(word)
+
+turns = 12
+
+# if:
+# guessed_letters = 
+
+# while turns < 13:
+    
